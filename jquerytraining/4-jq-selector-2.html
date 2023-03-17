@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+<script src="libraries/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+	//hides all <p> elements.
+	//$("p").hide();
+	//hides all <div> elements.
+	//$("div").hide();
+	//hides the element with id="pid1" or div2 - id selector
+	$("#pid1").hide();
+	$("#div2").hide();
+ //hides all elements with class="testcls".
+	$(".testcls").hide();
+})
+</script>
+</head>
+<body>
+<p id='pid1'>Paragraph 1</p>
+<p>Paragraph 2</p>
+<p>Paragraph 3</p>
+<div>This is div 1</div>
+<div id="div2">This is div 2</div>
+<div class="testcls">This is div 3</div>
+<h2>Morning boosters</h2>
+<ul>
+	<li>Coffee</li>
+	<li>Tea</li>
+	<li>Milk</li>
+</ul>
+
+<table>
+	<tr>
+		<th>Item</th>
+		<th>Rate</th>
+		<th>Quantity</th>
+		<th>Amount</th>
+	</tr>
+
+	<tr>
+		<td>Rice</td>
+		<td>50</td>
+		<td>10</td>
+		<td>500</td>
+	</tr>
+</table>
+</body>
+</html>

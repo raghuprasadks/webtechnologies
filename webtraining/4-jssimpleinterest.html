@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Simple Interest</title>
+</head>
+<body>
+	<h1>Simple Interest Calculator</h1>
+	<label>Enter Principal Amount</label>
+	<input type="text" name="prin" id="prin">
+	<label>Enter Rate Of Interest</label>
+	<input type="text" name="roi" id="roi">
+	<label>Enter Time in Years</label>
+	<input type="text" name="time" id="time">
+	<button onclick="Calculate()">Calculate</button><br>
+	<label>Simple Interest is</label>
+	<label id="si"></label>
+	<script>		
+		function Calculate(){
+			//alert('inside calculate')
+			principal =document.getElementById("prin").value
+			console.log('principal ',principal)
+			roi =document.getElementById("roi").value
+			time =document.getElementById("time").value
+			si = (principal*roi*time)/100
+			console.log("si",si)
+			document.getElementById("si").innerHTML=si
+		}
+
+
+	</script>
+</body>
+</html>

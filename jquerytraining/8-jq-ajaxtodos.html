@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+<script src="libraries/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+
+	$("button").click(function(){
+		$.get("https://jsonplaceholder.typicode.com/todos",function(todos,status){
+			console.log(todos)
+		console.log(todos.length)
+		console.log(status)
+		$.each(todos,function(i,todo){
+			console.log(i)
+		$('table').append(`<tr><td>${todo.userId}</td><td>${todo.id}</td><td>${todo.title}</td><td>${todo.completed}</td></tr>`)
+		})
+	})
+})
+})
+</script>
+</head>
+<body>
+<h1>Todos</h1>
+<button>Get Todos</button>
+<table>
+	<tr>
+		<th>User Id</th>
+		<th>Id</th>
+		<th>Title</th>
+		<th>Status</th>
+	</tr>
+</table>
+
+</body>
+</html>

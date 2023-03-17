@@ -1,0 +1,91 @@
+
+Java Script 
+
+JQuery,React
+
+Framework - Angular,View.js
+
+Step 1 - Create jquerytraining folder
+
+Step 2 - Open is sublime text /visual studio code
+
+1-jq-gettingstarted.html
+
+create libraries folder withh in jquerytraining folder
+
+
+Events
+
+click
+mouseenter,mouseleave,keypress,
+doubleclick
+focus
+load
+
+
+Asynchronous Java Script and XML (AJAX)
+
+Webservices
+
+Program which runs on the web
+and process your request
+
+JSON - Java Script Object Notation
+
+Java Script Object
+emp={
+code:1,
+name:"ravi",
+dept:"MCA",
+desg:"Lect",
+sal:50000
+
+}
+employee json
+emp={
+"code":1,
+"name":"ravi",
+"dept":"MCA",
+"desg":"Lect",
+"sal":50000
+}
+
+employees=
+[
+{
+"code":1,
+"name":"ravi",
+"dept":"MCA",
+"desg":"Lect",
+"sal":50000,
+"address":{"hno":1094,"street":"1st main","city":"Bengaluru"}
+},
+{
+"code":2,
+"name":"ramya",
+"dept":"MCA",
+"desg":"Lect",
+"sal":50000
+}
+
+
+]
+
+
+fakeapi
+
+jsonplaceholder
+
+webservice url - https://jsonplaceholder.typicode.com/users
+
+REST - representational state transfer webservice
+https://jsonplaceholder.typicode.com/todos
+
+
+
+
+
+
+
+
+
