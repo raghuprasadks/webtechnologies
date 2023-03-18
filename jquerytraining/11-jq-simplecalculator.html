@@ -8,7 +8,6 @@ $(document).ready(function(){
     principal=$("#principal").val()
     roi = $("#roi").val()
     time = $("#time").val()
-
     si = (principal*roi*time)/100
     $("p").text(si)
     $("#principal").val('')
@@ -20,9 +19,7 @@ $(document).ready(function(){
 </head>
 <body>
 <div>
-
   <h1>Simple Calculator</h1>
-
   <label>Enter Principal Amount</label><br>
   <input type="number" id="principal"><br>
   <label>Enter Rate Of Interest</label><br>
@@ -30,10 +27,8 @@ $(document).ready(function(){
   <label>Enter Time in Years</label><br>
   <input type="number" id="time"><br>
   <button>Calculate</button>
-
   <h2>Simple Interest is </h2>
   <p></p>
 </div>
-
 </body>
 </html>
