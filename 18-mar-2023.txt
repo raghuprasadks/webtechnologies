@@ -1,0 +1,19 @@
+1. Revision
+AJAX 
+Web services
+RESTFUL Web Service
+Fakewebservice provider
+jsonplaceholder
+
+Assignment :
+https://jsonplaceholder.typicode.com/users
+
+Users
+Get Users button
+name,email,city,website,company name
+
+
+2. jQuery Effects
+3. jQuery HTML
+4. jQuery Traversing
+

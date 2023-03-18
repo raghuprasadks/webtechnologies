@@ -1,0 +1,23 @@
+
+
+Kaushalya technical training
+
+http://www.kaushalya.tech/
+
+https://github.com/raghuprasadks
+
+
+JQuery - 
+jquery syntax
+selector
+event
+ajax
+$
+json
+fetch - webservice
+jsonplaceholder
+todos
+
+
+
+
